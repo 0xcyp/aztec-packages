@@ -104,7 +104,6 @@ EscrowContractAbi
 ImportTestContractAbi
 LendingContractAbi
 MultiTransferContractAbi
-NonNativeTokenContractAbi
 ParentContractAbi
 PendingCommitmentsContractAbi
 PokeableTokenContractAbi
