@@ -2,7 +2,7 @@ use dep::aztec::hash::{sha256_to_field};
 
 // Computes a content hash of a deposit/mint_public message.
 // Refer TokenPortal.sol for reference on L1.
-fn get_mint_public_content_hash(owner_address: Field, amount: Field, canceller: Field) -> Field {
+fn get_mint_public_content_hash(amount: Field, owner_address: Field, canceller: Field) -> Field {
     
     let mut hash_bytes: [u8; 100] = [0; 100];
     let amount_bytes = amount.to_be_bytes(32);
